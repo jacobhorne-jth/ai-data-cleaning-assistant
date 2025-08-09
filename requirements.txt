@@ -1,0 +1,5 @@
+streamlit
+pandas
+python-dateutil
+openai==0.28.0
+python-dotenv

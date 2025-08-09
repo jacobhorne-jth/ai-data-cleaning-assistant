@@ -1,0 +1,8 @@
+name,age,email,income,join_date
+Alice,25,alice@example.com,55000,2021-04-01
+Bob,-3,bob[at]email.com,missing,2020/12/15
+Charlie,,charlie@email.com,72000.00,NaN
+Alice,25,alice@example.com,55000,2021-04-01
+Debby,42,,88000,2021.06.10
+Eve,19,eve@@email.com,56000,04-01-2021
+Frank,NaN,frank@email.com,not available,2021/04/01

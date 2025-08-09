@@ -1,0 +1,7 @@
+name,age,email,income,join_date
+George,30.0,george@example.com,60000,2022-01-15
+Hannah,27.0,hannah@domain.com,72000,2021-08-30
+Ian,,ian123@email.com,54000,2023-03-12
+Julia,45.0,julia_smith@example.com,88000,2020-07-01
+Kevin,33.0,kevin@sample.org,50000,
+Laura,28.0,laura@web.net,missing,2019-11-25
