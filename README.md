@@ -120,7 +120,7 @@ http://localhost:8501
 
 **Example Tableau Dashboard**
 
-![AI Data Cleaning Assistant Preview](images/JacobHorneTableau.png)
+![AI Data Cleaning Assistant Preview](images/JacobHorneTableau.PNG)
 
 **License**
 
@@ -131,6 +131,7 @@ This project is licensed under the MIT License.
 - Pandas
 - Streamlit
 - Tableau Public
+
 
 
 
