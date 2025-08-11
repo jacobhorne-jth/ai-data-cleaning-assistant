@@ -3,6 +3,7 @@ import streamlit.components.v1 as components
 import pandas as pd
 from run_assistant import run_pipeline 
 from pathlib import Path
+import io
 
 for p in ["data/raw", "data/cleaned", "logs"]:
     Path(p).mkdir(parents=True, exist_ok=True)
@@ -31,6 +32,12 @@ if uploaded_file:
 
     # Load comparison CSV
     df = pd.read_csv("data/cleaned/tableau_comparison.csv")
+
+    cleaned = pd.read_csv("data/cleaned/cleaned_output.csv")
+    buf = io.StringIO()
+    cleaned.to_csv(buf, index=False)
+    st.download_button("⬇️ Download Cleaned CSV", buf.getvalue(), file_name="cleaned_output.csv", mime="text/csv")
+
 
     # ---------- Pretty Before/After table + visuals ----------
 
