@@ -1,10 +1,12 @@
 import openai
 import os
 from dotenv import load_dotenv
+import streamlit as st
 
 # Load your OpenAI key
-load_dotenv()
-openai.api_key = os.getenv("OPENAI_API_KEY")
+#load_dotenv()
+
+openai.api_key = st.secrets["OPENAI_API_KEY"]
 
 def get_cleaning_advice(column_name, stats):
     # Build GPT prompt
