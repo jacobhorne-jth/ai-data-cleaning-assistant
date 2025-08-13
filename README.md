@@ -68,7 +68,7 @@ An alternate dataset (data/raw/sample_messy_alt.csv) is also provided for testin
 
 1. Clone the repository:
 ```text
-git clone https://github.com/<your-username>/ai-data-cleaning-assistant.git
+git clone https://github.com/jacobhorne-jth/ai-data-cleaning-assistant.git
 cd ai-data-cleaning-assistant
 ```
 2. Create a virtual environment and activate it:
@@ -131,6 +131,7 @@ This project is licensed under the MIT License.
 - Pandas
 - Streamlit
 - Tableau Public
+
 
 
 
